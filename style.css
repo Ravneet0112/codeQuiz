@@ -1,0 +1,173 @@
+/*
+*body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 70%;
+    padding: 20px;
+    margin: auto 30%;
+    background-color: white;
+}
+
+.welcome-page{
+    padding: 20px
+}
+
+
+/*
+.score{
+    display: flex;
+    justify-items: space-between;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+
+}
+
+.nav{
+    display: inline-block;
+    text-decoration: none;
+    di
+}
+
+
+.nav li #highscore{
+    justify-items: flex-start;
+}
+
+.nav li #timer{
+    justify-items: flex-end;
+}
+
+.welcome-page{
+    display: block;
+}
+
+#question-container #answer-buttons{
+    margin-top: 10px;
+    display: grid;
+    justify-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+
+#btn-grid{
+    gap: 10px;
+    display: flex;
+    background-color: blue;
+    color: white;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    display: flex;
+}
+
+.welcome-page .hide{
+    display: none;
+}
+
+#question-container .hide{
+    display: none;
+}
+
+.start-btn .hide{
+    display: none;
+}
+*/
+
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+
+body {
+
+  padding: 0;
+  margin: 0; 
+  justify-content: center;
+  align-items: top;
+}
+                                               
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.timer{
+  padding-right: 25px;
+}
+
+
+
+.begin{
+  display: block;
+  font-size: 15px;
+  width: 100%;
+  height: 20px;
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 600px;
+  height: 70%;
+  background-color: white;
+  margin-top: 80px;
+  padding: 20px;
+  margin: auto 30%;
+  
+}
+
+.btn-grid {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: hsl(var(--hue), 100%, 50%);
+  display: flex;
+  justify-content: left;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}
+
+.start-btn, .next-btn, .submit-btn{
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  width: auto;
+  justify-items: left;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
